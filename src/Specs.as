@@ -69,9 +69,10 @@ public class Specs {
 		[7,  "Sensing",		0x2ca5e2],
 		[8,  "Operators",	0x5cb712],
 		[9,  "Data",		variableColor],
-		[10, "More Blocks",	procedureColor],
+		[10, "Custom",	procedureColor],
 		[11, "Parameter",	parameterColor],
 		[12, "List",		listColor],
+		[13, "Other",			 0x969696],
 		[20, "Extension",	extensionsColor],
 	];
 
@@ -379,9 +380,9 @@ public class Specs {
 		["counter",								"r", 99, "COUNT"],
 		["clear counter",						" ", 99, "CLR_COUNT"],
 		["incr counter",						" ", 99, "INCR_COUNT"],
-		["for each %m.varName in %s",			"c", 99, "doForLoop", "v", 10],
-		["while %b",							"c", 99, "doWhile"],
-		["all at once",							"c", 99, "warpSpeed"],
+		["for each %m.varName in %s",			"c", 13, "doForLoop", "v", 10],
+		["while %b",							"c", 13, "doWhile"],
+		["all at once",							"c", 13, "warpSpeed"],
 
 		// stage motion (scrolling)
 		["scroll right %n",						" ", 99, "scrollRight",		10],

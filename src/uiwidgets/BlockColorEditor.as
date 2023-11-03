@@ -78,7 +78,7 @@ public class BlockColorEditor extends Sprite {
 			if (r[1] == catName) r[2] = c;
 			if ('Data' == catName) Specs.variableColor = c;
 			if ('List' == catName) Specs.listColor = c;
-			if ('More Blocks' == catName) Specs.procedureColor = c;
+			if ('Custom' == catName) Specs.procedureColor = c;
 			if ('Parameter' == catName) Specs.parameterColor = c;
 			if ('Extension' == catName) Specs.extensionsColor = c;
 		}
@@ -120,7 +120,7 @@ public class BlockColorEditor extends Sprite {
 		category.addEventListener(MouseEvent.MOUSE_OUT, categoryRollover);
 		category.addEventListener(MouseEvent.MOUSE_DOWN, categoryMenu);
 
-		categoryName = makeLabel('More Blocks', 12, 185, 0);
+		categoryName = makeLabel('Custom', 12, 185, 0);
 	}
 
 	private function categoryRollover(evt:MouseEvent):void {
